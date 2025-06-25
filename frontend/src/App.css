@@ -1,0 +1,42 @@
+/* frontend/src/App.css */
+@import "tailwindcss";
+
+/* Application specific styles */
+:root {
+    /* Light theme variables */
+    --primary: 221 83% 53%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --background: 0 0% 100%;
+    --foreground: 222 84% 5%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 84% 5%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;
+    --radius: 0.5rem;
+}
+
+/* Dark theme variables - Vercel inspired */
+.dark {
+    --primary: 221 83% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 215 25% 27%;
+    --secondary-foreground: 210 40% 98%;
+    --background: 220 14% 10%;
+    --foreground: 0 0% 98%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --card: 220 14% 13%;
+    --card-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 224 76% 48%;
+}
